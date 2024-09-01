@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "BlOODKING",
+    "slug": "Blood_King",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "Blood_King",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assestBundPatterns": [
+      "**/*"
+    ],
+    
+    "ios": {
+      "supportsTablet": true,
+      "package":"com.jsm.BLOODKING"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package":"com.jsm.BLOODKING"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
